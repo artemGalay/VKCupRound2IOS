@@ -10,17 +10,16 @@ import UIKit
 final class DefaultLabel: UILabel {
 
     let padding = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
-        override func drawText(in rect: CGRect) {
-            super.drawText(in: rect.inset(by: padding))
-        }
+    override func drawText(in rect: CGRect) {
+        super.drawText(in: rect.inset(by: padding))
+    }
 
-        override var intrinsicContentSize : CGSize {
-            let superContentSize = super.intrinsicContentSize
-            let width = superContentSize.width + padding.left + padding.right
-            let heigth = superContentSize.height + padding.top + padding.bottom
-            return CGSize(width: width, height: heigth)
-        }
-
+    override var intrinsicContentSize : CGSize {
+        let superContentSize = super.intrinsicContentSize
+        let width = superContentSize.width + padding.left + padding.right
+        let heigth = superContentSize.height + padding.top + padding.bottom
+        return CGSize(width: width, height: heigth)
+    }
 
     init(title: String) {
         super.init(frame: .zero)
@@ -49,7 +48,6 @@ final class DefaultLabel: UILabel {
         if recognizer.state == .began {
             layer.borderWidth = 1
 
-
         } else if recognizer.state == .changed {
             let translation = recognizer.translation(in: self)
 
@@ -59,11 +57,8 @@ final class DefaultLabel: UILabel {
             center = CGPoint(x: newX, y: newY)
             recognizer.setTranslation(CGPoint.zero, in: self)
 
-
         } else if recognizer.state == .ended {
             layer.borderWidth = 0
-
         }
-
     }
 }

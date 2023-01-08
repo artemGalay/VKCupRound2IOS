@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     private let titleLabel: UILabel = {
         let label = UILabel()
@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     private let twoLabel = DefaultLabel(title: "два")
     private let withLabel = DefaultLabel(title: "с")
     private let andLabel = DefaultLabel(title: "и")
-
 
     override func viewDidLoad() {
         super.viewDidLoad()

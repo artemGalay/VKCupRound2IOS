@@ -54,7 +54,7 @@
 		D9ACAB4B2968C1730000805F /* VKCupRound2IOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9ACAB4C2968C1730000805F /* AppDelegate.swift */,
+				D9ACAB6F296AF40A0000805F /* App */,
 				D9ACAB6E296AF2B70000805F /* Task3 */,
 				D9ACAB552968C1740000805F /* Assets.xcassets */,
 				D9ACAB572968C1740000805F /* LaunchScreen.storyboard */,
@@ -70,6 +70,14 @@
 				D9ACAB502968C1730000805F /* ViewController.swift */,
 			);
 			path = Task3;
+			sourceTree = "<group>";
+		};
+		D9ACAB6F296AF40A0000805F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D9ACAB4C2968C1730000805F /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
