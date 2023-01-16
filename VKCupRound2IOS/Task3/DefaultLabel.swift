@@ -46,7 +46,6 @@ final class DefaultLabel: UILabel {
     @objc func dragTheLabel(recognizer: UIPanGestureRecognizer) {
 
         if recognizer.state == .began {
-            layer.borderWidth = 1
 
         } else if recognizer.state == .changed {
             let translation = recognizer.translation(in: self)
@@ -58,7 +57,6 @@ final class DefaultLabel: UILabel {
             recognizer.setTranslation(CGPoint.zero, in: self)
 
         } else if recognizer.state == .ended {
-            layer.borderWidth = 0
         }
     }
 }
