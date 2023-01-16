@@ -17,8 +17,8 @@ final class DefaultLabel: UILabel {
     override var intrinsicContentSize : CGSize {
         let superContentSize = super.intrinsicContentSize
         let width = superContentSize.width + padding.left + padding.right
-        let heigth = superContentSize.height + padding.top + padding.bottom
-        return CGSize(width: width, height: heigth)
+        let height = superContentSize.height + padding.top + padding.bottom
+        return CGSize(width: width, height: height)
     }
 
     init(title: String) {

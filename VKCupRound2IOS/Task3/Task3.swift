@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class Task3: UIViewController {
 
     private let titleLabel: UILabel = {
         let label = UILabel()
