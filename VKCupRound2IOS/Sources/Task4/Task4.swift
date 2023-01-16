@@ -9,6 +9,8 @@ import UIKit
 
 final class Task4: UIViewController {
 
+    // MARK: - User Interface
+
     private let firstTitleLabel = DefaultTitleLabel(title: "Текст")
     private let secondTitleLabel = DefaultTitleLabel(title: "несколькими")
     private let thirdTitleLabel = DefaultTitleLabel(title: "пропусками")
@@ -17,12 +19,16 @@ final class Task4: UIViewController {
     private let firstTextField = DefaultTextField()
     private let secondTextField = DefaultTextField()
 
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupHierarchy()
         setupLayout()
     }
+
+    // MARK: - Private methods
 
     private func setupHierarchy() {
         view.addSubview(firstTitleLabel)

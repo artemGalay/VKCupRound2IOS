@@ -9,6 +9,8 @@ import UIKit
 
 final class Task3: UIViewController {
 
+    // MARK: - User Interface
+
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Текст               несколькими пропусками          вариантами."
@@ -23,12 +25,16 @@ final class Task3: UIViewController {
     private let withLabel = DefaultLabel(title: "с")
     private let andLabel = DefaultLabel(title: "и")
 
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupHierarchy()
         setupLayout()
     }
+
+    // MARK: - Private methods
 
     private func setupHierarchy() {
         view.addSubview(titleLabel)

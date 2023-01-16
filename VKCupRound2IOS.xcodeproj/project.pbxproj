@@ -16,6 +16,15 @@
 		D9B29F0729754FA4003E8825 /* DefaultTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29F0629754FA4003E8825 /* DefaultTextField.swift */; };
 		D9DBDA012975637500FD7DC9 /* Tas5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA002975637500FD7DC9 /* Tas5ViewController.swift */; };
 		D9DBDA0329756FD200FD7DC9 /* DefaultTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA0229756FD200FD7DC9 /* DefaultTitleLabel.swift */; };
+		D9DBDA08297586A500FD7DC9 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA07297586A500FD7DC9 /* Task2.swift */; };
+		D9DBDA0A2975874100FD7DC9 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA092975874100FD7DC9 /* Categories.swift */; };
+		D9DBDA0C297587A800FD7DC9 /* AnswersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA0B297587A800FD7DC9 /* AnswersCollectionViewCell.swift */; };
+		D9DBDA102975911500FD7DC9 /* NumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA0F2975911500FD7DC9 /* NumberLabel.swift */; };
+		D9DBDA132975934500FD7DC9 /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA122975934500FD7DC9 /* UIStackView+Ext.swift */; };
+		D9DBDA172975B30000FD7DC9 /* VKCupTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA162975B30000FD7DC9 /* VKCupTabBarController.swift */; };
+		D9DBDA1B2975B9B500FD7DC9 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA1A2975B9B500FD7DC9 /* Task1.swift */; };
+		D9DBDA1F2975C28200FD7DC9 /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA1E2975C28200FD7DC9 /* QuestionCollectionViewCell.swift */; };
+		D9DBDA212975C37800FD7DC9 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBDA202975C37800FD7DC9 /* Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		D9B29F0629754FA4003E8825 /* DefaultTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextField.swift; sourceTree = "<group>"; };
 		D9DBDA002975637500FD7DC9 /* Tas5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tas5ViewController.swift; sourceTree = "<group>"; };
 		D9DBDA0229756FD200FD7DC9 /* DefaultTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTitleLabel.swift; sourceTree = "<group>"; };
+		D9DBDA07297586A500FD7DC9 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		D9DBDA092975874100FD7DC9 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		D9DBDA0B297587A800FD7DC9 /* AnswersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9DBDA0F2975911500FD7DC9 /* NumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLabel.swift; sourceTree = "<group>"; };
+		D9DBDA122975934500FD7DC9 /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
+		D9DBDA162975B30000FD7DC9 /* VKCupTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKCupTabBarController.swift; sourceTree = "<group>"; };
+		D9DBDA1A2975B9B500FD7DC9 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		D9DBDA1E2975C28200FD7DC9 /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9DBDA202975C37800FD7DC9 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				D9ACAB6F296AF40A0000805F /* App */,
-				D9ACAB6E296AF2B70000805F /* Task3 */,
-				D9B29F0329754F01003E8825 /* Task4 */,
-				D9DBD9F829755AEC00FD7DC9 /* Task5 */,
-				D9ACAB552968C1740000805F /* Assets.xcassets */,
-				D9ACAB572968C1740000805F /* LaunchScreen.storyboard */,
-				D9ACAB5A2968C1740000805F /* Info.plist */,
+				D9DBDA182975B97400FD7DC9 /* Sources */,
+				D9DBDA142975B29A00FD7DC9 /* Resources */,
 			);
 			path = VKCupRound2IOS;
 			sourceTree = "<group>";
@@ -106,6 +120,68 @@
 				D9DBDA002975637500FD7DC9 /* Tas5ViewController.swift */,
 			);
 			name = Task5;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D9DBDA062975867800FD7DC9 /* Task2 */ = {
+			isa = PBXGroup;
+			children = (
+				D9DBDA07297586A500FD7DC9 /* Task2.swift */,
+				D9DBDA092975874100FD7DC9 /* Categories.swift */,
+				D9DBDA0B297587A800FD7DC9 /* AnswersCollectionViewCell.swift */,
+				D9DBDA0F2975911500FD7DC9 /* NumberLabel.swift */,
+			);
+			path = Task2;
+			sourceTree = "<group>";
+		};
+		D9DBDA112975932E00FD7DC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9DBDA122975934500FD7DC9 /* UIStackView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9DBDA142975B29A00FD7DC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9ACAB552968C1740000805F /* Assets.xcassets */,
+				D9ACAB572968C1740000805F /* LaunchScreen.storyboard */,
+				D9ACAB5A2968C1740000805F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9DBDA152975B2CA00FD7DC9 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9DBDA162975B30000FD7DC9 /* VKCupTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		D9DBDA182975B97400FD7DC9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D9DBDA152975B2CA00FD7DC9 /* TabBarControllers */,
+				D9DBDA192975B97F00FD7DC9 /* Task1 */,
+				D9DBDA062975867800FD7DC9 /* Task2 */,
+				D9ACAB6E296AF2B70000805F /* Task3 */,
+				D9B29F0329754F01003E8825 /* Task4 */,
+				D9DBD9F829755AEC00FD7DC9 /* Task5 */,
+				D9DBDA112975932E00FD7DC9 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D9DBDA192975B97F00FD7DC9 /* Task1 */ = {
+			isa = PBXGroup;
+			children = (
+				D9DBDA1A2975B9B500FD7DC9 /* Task1.swift */,
+				D9DBDA1E2975C28200FD7DC9 /* QuestionCollectionViewCell.swift */,
+				D9DBDA202975C37800FD7DC9 /* Questions.swift */,
+			);
+			path = Task1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,12 +254,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DBDA0C297587A800FD7DC9 /* AnswersCollectionViewCell.swift in Sources */,
 				D9ACAB512968C1730000805F /* Task3.swift in Sources */,
 				D9B29F0529754F49003E8825 /* Task4.swift in Sources */,
+				D9DBDA132975934500FD7DC9 /* UIStackView+Ext.swift in Sources */,
 				D9DBDA0329756FD200FD7DC9 /* DefaultTitleLabel.swift in Sources */,
+				D9DBDA212975C37800FD7DC9 /* Questions.swift in Sources */,
+				D9DBDA08297586A500FD7DC9 /* Task2.swift in Sources */,
 				D9ACAB6C296A20DB0000805F /* DefaultLabel.swift in Sources */,
+				D9DBDA0A2975874100FD7DC9 /* Categories.swift in Sources */,
 				D9B29F0729754FA4003E8825 /* DefaultTextField.swift in Sources */,
 				D9ACAB4D2968C1730000805F /* AppDelegate.swift in Sources */,
+				D9DBDA1F2975C28200FD7DC9 /* QuestionCollectionViewCell.swift in Sources */,
+				D9DBDA1B2975B9B500FD7DC9 /* Task1.swift in Sources */,
+				D9DBDA172975B30000FD7DC9 /* VKCupTabBarController.swift in Sources */,
+				D9DBDA102975911500FD7DC9 /* NumberLabel.swift in Sources */,
 				D9DBDA012975637500FD7DC9 /* Tas5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +410,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76N9URDUCT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VKCupRound2IOS/Info.plist;
+				INFOPLIST_FILE = VKCupRound2IOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -352,7 +437,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76N9URDUCT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VKCupRound2IOS/Info.plist;
+				INFOPLIST_FILE = VKCupRound2IOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

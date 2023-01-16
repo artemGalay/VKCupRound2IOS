@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Tas5ViewController: UIViewController {
+final class Task5: UIViewController {
 
         // MARK: - Properties
 
