@@ -7,7 +7,9 @@
 
 import UIKit
 
-class DefaultTitleLabel: UILabel {
+final class DefaultTitleLabel: UILabel {
+
+    // MARK: - Initialized
 
     init(title: String) {
         super.init(frame: .zero)
@@ -18,6 +20,8 @@ class DefaultTitleLabel: UILabel {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
+    // MARK: - Private methods
 
     private func configureTitleLabel() {
         translatesAutoresizingMaskIntoConstraints = false

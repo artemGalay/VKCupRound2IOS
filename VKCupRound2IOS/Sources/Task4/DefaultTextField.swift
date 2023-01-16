@@ -9,6 +9,8 @@ import UIKit
 
 final class DefaultTextField: UITextField {
 
+    // MARK: - Initialized
+
     init() {
         super.init(frame: .zero)
         configureTextField()
@@ -17,6 +19,8 @@ final class DefaultTextField: UITextField {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
+    // MARK: - Private methods
     
     private func configureTextField() {
         placeholder = "слово"

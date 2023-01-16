@@ -9,6 +9,8 @@ import UIKit
 
 final class DefaultLabel: UILabel {
 
+    // MARK: - Properties
+
     let padding = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
     override func drawText(in rect: CGRect) {
         super.drawText(in: rect.inset(by: padding))
@@ -21,6 +23,8 @@ final class DefaultLabel: UILabel {
         return CGSize(width: width, height: height)
     }
 
+    // MARK: - Initialized
+
     init(title: String) {
         super.init(frame: .zero)
         text = title
@@ -30,6 +34,8 @@ final class DefaultLabel: UILabel {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
+    // MARK: - Private methods
 
     private func configureTitleLabel() {
         let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(dragTheLabel))
