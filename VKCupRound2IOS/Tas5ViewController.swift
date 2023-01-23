@@ -84,9 +84,7 @@ final class Task5: UIViewController {
         }
 
         private func setupHierarchy() {
-
             view.backgroundColor = .white
-
             view.addSubview(container)
             container.translatesAutoresizingMaskIntoConstraints = false
             container.leftAnchor.constraint(equalTo: view.leftAnchor, constant: Constants.containerHorizontalInsets).isActive = true
